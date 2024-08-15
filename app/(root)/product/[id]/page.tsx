@@ -3,7 +3,7 @@ import { GroupVariants } from '@/components/shared/group-variats';
 import { prisma } from '@/prisma/prisma-client';
 import { notFound } from 'next/navigation';
 
-export default async function ProductPage({
+export default async function ProductModalPage({
   params: { id },
 }: {
   params: { id: string };
